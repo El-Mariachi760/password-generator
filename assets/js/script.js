@@ -57,14 +57,14 @@ function generatePassword() {
   var numbers;
   var symbols;
 
-  //initialize charactors
+  //initialize characters
   passwordLength = 0;
   randomFunc.length = 0;
   result = "";
 
   //prompt password length
   while (passwordLength < 8 || passwordLength > 128) {
-    passwordLength = prompt("How many charactors do you want your password to be? Password must be between 8 and 128 charactors");
+    passwordLength = prompt("How many characters do you want your password to be? Password must be between 8 and 128 characters");
 
     //if user selects cancel
     if (passwordLength === null) {
