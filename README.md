@@ -9,6 +9,6 @@ Here is my password generator and I did the follwing:
 
 Here is a screenshot of the generator along with the link:
 
-https://el-mariachi760.github.io/password-generator/
+[Deploy](https://el-mariachi760.github.io/password-generator/)
 
-![image](https://user-images.githubusercontent.com/94568874/162650318-ac94e4ca-a0f1-4a4b-94e1-57b7d1270ff8.png)
+!![image](https://user-images.githubusercontent.com/94568874/187355772-a645ad67-ce4a-4f51-b546-751380dae74e.png)
