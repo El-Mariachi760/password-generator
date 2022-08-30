@@ -15,8 +15,8 @@ body,
 body {
   margin: 0;
   font-family: Verdana, sans-serif;
-  background-color: #03045E;
-  color: #CAF0F8;
+  background-color: #81C3D7;
+  color: #2F6690;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -24,14 +24,22 @@ body {
 }
 
 .container {
-background-color: #0077B6;
+background-color: #D9DCD6;
 padding: 3rem;
 border-radius: 1rem;
-border: 2px solid #90E0EF;
+border: 2px solid #16425B;
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
+}
+
+input[type=range] {
+  accent-color: #3A7CA5;
+}
+
+.pw-display i {
+  align-items: right;
 }
 
 .form-container {
@@ -58,36 +66,68 @@ label {
 }
 
 .number-input {
-  width: 2rem;
+  width: 2.3rem;
 }
 
 .pw-display {
-  background-color: #f0ea95;
-  color: #03045E;
+  background-color: #81C3D7;
+  color: #16425B;
   padding: 1rem;
-  height: 3rem;
-  width: 350px;
+  height: 4rem;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
   word-break: break-all;
   border-radius: .5rem;
+  margin: 1rem;
+
+}
+
+#passwordDisplay {
+  width: 90%;
+  text-align: center;
+}
+
+div.pw-display button{
+  position: right;
+  scale: 1.75;
+  background-color: transparent;
+  border: none;
+  color: #3A7CA5;
+  cursor: pointer;
+  height: 100%;
+}
+
+#copyAlert {
+  visibility: hidden;
+  margin: 1rem;
+}
+
+#copyAlert.show {
+  visibility: visible;
+}
+
+div.pw-display button:hover {
+
+color: #16425B;
 
 }
 
 .btn {
   grid-column: span 2;
-  background-color: #90E0EF;
-  border: 2px solid #03045E;
-  color: #03045E;
+  background-color: #16425B;
+  border: 2px solid #D9DCD6;
+  color: #D9DCD6;
   padding: .5rem 1rem;
   font-weight: bold;
   cursor: pointer;
   border-radius: 1rem;
+  margin: .5rem;
 }
 
 .btn:hover {
-  background-color: #f0ea95;
+  background-color: #3A7CA5;
 }
 
 
